@@ -1,25 +1,33 @@
 {
-    "Name": "my-test-initiative-file",
-    "Properties": {
-      "displayName": "first test initiative",
-      "policyType": "Custom",
-      "metadata": {
-        "category": "xyz category",
-      },
-      "parameters": {},
-      "policyDefinitions": [
-        {
-          "policyDefinitionReferenceId": "3671495861783018524",
-          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/655cb504-bcee-4362-bd4c-402e6aa38759",
-          "parameters": {}
-        },
-        {
-          "policyDefinitionReferenceId": "11078451708165438989",
-          "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/057ef27e-665e-4328-8ea3-04b3122bd9fb",
-          "parameters": {}
-        }
-      ]
+  "Name": "b67f940e-d668-4a49-a16f-0e7c14eb00c6",
+  "ResourceId": "/subscriptions/157a9d2b-591e-414f-84bf-9b17422f2715/providers/Microsoft.Authorization/policySetDefinitions/b67f940e-d668-4a49-a16f-0e7c14eb00c6",
+  "ResourceName": "b67f940e-d668-4a49-a16f-0e7c14eb00c6",
+  "ResourceType": "Microsoft.Authorization/policySetDefinitions",
+  "SubscriptionId": "157a9d2b-591e-414f-84bf-9b17422f2715",
+  "Properties": {
+    "displayName": "test initiative",
+    "policyType": "Custom",
+    "description": "this is a test initiative",
+    "metadata": {
+      "category": "Storage",
+      "createdBy": "bb4bdaeb-9ad2-4d1e-8242-ae5e66a12f64",
+      "createdOn": "2019-05-03T11:38:06.9701996Z",
+      "updatedBy": "bb4bdaeb-9ad2-4d1e-8242-ae5e66a12f64",
+      "updatedOn": "2019-05-05T12:13:32.8318538Z"
     },
-    "PolicySetDefinitionId": "/subscriptions/157a9d2b-591e-414f-84bf-9b17422f2715/providers/Microsoft.Authorization/policySetDefinitions/my-test-initiative-file"
-  }
-  
+    "parameters": {},
+    "policyDefinitions": [
+      {
+        "policyDefinitionReferenceId": "3671495861783018524",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/655cb504-bcee-4362-bd4c-402e6aa38759",
+        "parameters": {}
+      },
+      {
+        "policyDefinitionReferenceId": "11078451708165438989",
+        "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/057ef27e-665e-4328-8ea3-04b3122bd9fb",
+        "parameters": {}
+      }
+    ]
+  },
+  "PolicySetDefinitionId": "/subscriptions/157a9d2b-591e-414f-84bf-9b17422f2715/providers/Microsoft.Authorization/policySetDefinitions/b67f940e-d668-4a49-a16f-0e7c14eb00c6"
+}
