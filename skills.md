@@ -35,3 +35,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [www.azuredevopslabs.com](https://www.azuredevopslabs.com/) <br>
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
+
+
+AKS RBAC
+https://dzone.com/articles/aks-scratch-to-production-ready
