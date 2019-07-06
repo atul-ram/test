@@ -100,3 +100,40 @@ https://github.com/twajr/ckad-prep-notes#where-to-practice
 - [ ] __Services and Networking - 13%__
   - [ ] Understand Services
   - [ ] Basic Network Policies
+
+# Where to Practice
+In my opinion, and all that is required to pass this test, is to just setup a gcloud account, and use a two-node GKE cluster for studying. Heck, you can even use the very nice google cloud shell and not even leave your browser.
+
+[gcloud command line (SDK) documentation](https://cloud.google.com/sdk/)
+
+Here are commands used to create a two-node cluster for studying. I keep these here just so I can fire up and destroy a cluster for a few hours each day for study. Notice that you can tailor the cluster version to match the k8s version for the exam.
+```
+gcloud config set compute/zone us-central1-a
+gcloud config set compute/region us-central1
+gcloud container clusters create my-cluster --cluster-version=1.11.7-gke.12 \
+     --image-type=ubuntu --num-nodes=2
+```
+The result:
+```
+NAME        LOCATION       MASTER_VERSION  MASTER_IP     MACHINE_TYPE   NODE_VERSION  NUM_NODES  STATUS
+my-cluster  us-central1-a  1.10.7-gke.6    35.232.253.6  n1-standard-1  1.11.7-gke.12  2          RUNNING
+
+cloudshell:~$ kubectl get nodes
+NAME                                        STATUS    ROLES     AGE       VERSION
+gke-my-cluster-default-pool-5f731fab-9d6n   Ready     <none>    44s       1.11.7-gke.12
+gke-my-cluster-default-pool-5f731fab-llrb   Ready     <none>    41s       1.11.7-gke.12
+```
+## Setting kubectl Credentials
+If using the cloud shell, you'll sometimes need to authorize kubectl to connect to your cluster instance.
+```
+gcloud container clusters get-credentials my-cluster
+```
+## Deleting Your Cluster
+No need to keep the cluster around when not studying, so:
+```
+gcloud container clusters delete my-cluster
+```
+## To Get Current GKE Kubernetes Versions
+```
+  gcloud container get-server-config
+```
