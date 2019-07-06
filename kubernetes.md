@@ -69,6 +69,7 @@ https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2
 https://github.com/walidshaari/Kubernetes-Certified-Administrator
 https://github.com/twajr/ckad-prep-notes#where-to-practice
 
+https://github.com/kelseyhightower/kubernetes-the-hard-way
 
 # Current Progress
 
