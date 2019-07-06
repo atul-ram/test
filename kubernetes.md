@@ -59,3 +59,44 @@ Pods are created.
 - They run and server requests.
 - Wait for graceful termination (according to restart policy).
 - If a node dies before that pods are scheduled for recreation, a new pod is created with new UID. The old pod's state is not taken into consideration.
+
+
+#ref 
+https://medium.com/platformer-blog/how-i-passed-the-cka-certified-kubernetes-administrator-exam-8943aa24d71d
+
+https://docs.google.com/spreadsheets/d/10NltoF_6y3mBwUzQ4bcQLQfCE1BWSgUDcJXy-Qp2JEU/edit#gid=0
+
+https://github.com/walidshaari/Kubernetes-Certified-Administrator
+https://github.com/twajr/ckad-prep-notes#where-to-practice
+
+
+# Current Progress
+
+- [ ] __Core Concepts - 13%__
+  - [ ] API Primitives
+  - [ ] Create and Configure Basic Pods
+- [ ] __Configuration - 18%__
+  - [ ] Understand ConfigMaps
+  - [ ] Understand SecurityContexts
+  - [ ] Define App Resource Requirements
+  - [ ] Create and Consume Secrets
+  - [ ] Understand Service Accounts
+- [ ] __Multi-Container Pods - 10%__
+  - [ ] Design Patterns: Ambassador, Adapter, Sidecar
+    - [ ] - Sidecar Pattern
+    - [ ] - Init Containers
+- [ ] __Pod Design - 20%__
+  - [ ] Using Labels, Selectors, and Annotations
+  - [ ] Understand Deployments and Rolling Updates
+  - [ ] Understand Deployment Rollbacks
+  - [ ] Understand Jobs and CronJobs
+- [ ] - __State Persistence - 8%__
+  - [ ] - Understand PVCs for Storage
+- [ ] __Observability - 18%__
+  - [] Liveness and Readiness Probes
+  - [ ] Understand Container Logging
+  - [ ] Understand Monitoring Application in Kubernetes
+  - [ ] Understand Debugging in Kubernetes
+- [ ] __Services and Networking - 13%__
+  - [ ] Understand Services
+  - [ ] Basic Network Policies
