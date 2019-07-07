@@ -33,34 +33,6 @@ kubectl create secret docker-registry myregistrysecret --docker-server=DOCKER_RE
 
 
 
-
-The Smallest deployable entity in kubernetes is known as a Pod.
-
-Pods run inside nodes, and containers run inside the pods.
-
-Controllers( Deployment, StatefulSets, DaemonSet) create pods.
-
-
-A Pod may run a single container or multiple containers inside it.
-
-Containers that run in a same pod share network and storage.
-
-Inside a Pod, containers can address other containers with localhost.
-
-Since containers also share storage, they can even communicate using Inter Process Communication (IPC) or Semaphores.
-
-
-## Pod's Life
-This is how a Pod's life goes.
-
-Pods are created.
-- Pods are assigned a Unique ID(UID).
-- Scheduled to a random Node.
-- They run and server requests.
-- Wait for graceful termination (according to restart policy).
-- If a node dies before that pods are scheduled for recreation, a new pod is created with new UID. The old pod's state is not taken into consideration.
-
-
 #ref 
 https://medium.com/platformer-blog/how-i-passed-the-cka-certified-kubernetes-administrator-exam-8943aa24d71d
 
@@ -138,8 +110,13 @@ Certified Kubernetes Administrator (CKA) Exam Curriculum 1.14.1 (May 19)
   - [ ] Understand the primitives neccessary to create a self-healing application.
 
 
+[Self assesment](https://docs.google.com/spreadsheets/d/1kyPaDFQyHt8lm-rFEm2Xz89oqM3HI0A2wvzvvbGYB2c/edit#gid=0)
 
 # Where to Practice
+
+[play with k8s](https://labs.play-with-k8s.com/#)
+
+or
 In my opinion, and all that is required to pass this test, is to just setup a gcloud account, and use a two-node GKE cluster for studying. Heck, you can even use the very nice google cloud shell and not even leave your browser.
 
 [gcloud command line (SDK) documentation](https://cloud.google.com/sdk/)
@@ -175,3 +152,16 @@ gcloud container clusters delete my-cluster
 ```
   gcloud container get-server-config
 ```
+
+
+[What does “production ready” really mean for a Kubernetes cluster?](https://speakerdeck.com/luxas/what-does-production-ready-really-mean-for-a-kubernetes-cluster-umea-may-2019) by Lucas Käldström (May 7, 2019)
+
+# Production ready Cluster
+  
+  1. The cluster is resonably secure.
+  2. The cluster components are highly available enough for user's needs
+  3. All elements in the cluster are declaratively cotrolled.
+  4. Changes to the cluster state can be safely applied (upgrades/rollbacks)
+  5. The cluster passes as many end-to-end tests as possible.
+
+
