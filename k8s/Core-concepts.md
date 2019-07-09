@@ -12,7 +12,7 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 ## kube-apiserver
 
 - Provides a forward facing REST interface into the control plane & datastore.
-- All clients and other applications interact with kubernetes strictly through the API server.
+- All clients and other applications interact with kubernetes **strictly** through the API server.
 - Acts as a gatekeeper to the cluster by handling authentication & authorization, request validation, mutation, and admission control in addition to being the front-end to the backing datastore.
 
 ## etcd
@@ -23,7 +23,42 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 
 ## kube-controller-manager
 
-- 
+- Serves as the primary daemon that manages all core component control loops.
+- Monitors the cluster state via the apiserver and steers the cluster towards the desired state.
+
+## kube-scheduler
+
+- Verbose policy-rich engine that evaluates workload requirements and attempts to place it on a matching resource.
+- Default scheduler uses bin packing.
+- Workload Requirements can include: general hardware requirements, affinity/anti-affinity, labels, and other various custom resource requirements.
+
+# Node Components
+
+- kubelet
+- kube-proxy
+- Container Runtime Engine
+
+## kubelet
+
+- Acts as the node agent responsible for managing the lifecycle of every pod on its host.
+
+- the single host daemon required for a being a part of a kubernetes cluster
+- can read pod manifests from several different locations
+- workers: poll kube-apiserver looking for what they should run
+- masters: run the master services as static manifests found locally on the host
+
+## kube-proxy
+
+- Manages the network rules on each node.
+  - creates the rules on the host to map and expose services.
+  - uses a combination of ipvs and iptables to manage networking/loadbalancing 
+- Performs connection forwarding or loadbalancing for Kubernetes cluster services.
+- Available proxy Modes.
+  - Usespace
+  - iptables
+  - ipvs
+
+## Container Runtime Engine
 
 
 
