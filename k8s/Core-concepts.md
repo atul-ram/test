@@ -93,6 +93,17 @@ Pods are created.
 - Wait for graceful termination (according to restart policy).
 - If a node dies before that pods are scheduled for recreation, a new pod is created with new UID. The old pod's state is not taken into consideration.
 
+Pod crashes? Must be handled at higher level. Pod specification does not handle auto-healing or scaling 
+- ReplicaSet, Deployment ,Service
+- ephemeral: IP addresses are ephemeral
+
+Higher level kubernetes objects
+- ReplicaSet,ReplicationController: Scaling,healing
+- Deployment: Versioning and rollback
+- Service: Static(non-ephemeral) IP and networking
+- Volume: Non-ephemeral storage
+
+
 ## Services
 
 - **Unified method of accessing** the exposed workloads of Pods.
