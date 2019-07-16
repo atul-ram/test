@@ -138,3 +138,7 @@ EOF
 - Services are persistent objects used to reference ephermeral resources.
 
 
+## Cluster Roles
+
+four cluster roles, admin, cluster-admin, edit, and view available by default in this setup
+

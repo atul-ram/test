@@ -2,6 +2,8 @@
 https://github.com/shanepeckham/AKS_Security/blob/master/Azure/AD_RBAC/README.md
 
 https://github.com/kubernetes/cloud-provider-azure/blob/master/docs/cloud-provider-config.md
+https://cloudmanagement.navisite.com/azure-kubernetes-service-aks-network-design/
+
 
 # Common commands
 
