@@ -65,7 +65,24 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 ## cloud-controller-manager
 
 - Daemon that provides cloud-provider specific knowledge and integration capability into the core control loop of Kubernetes.
-- The controllers include Node, Route, Service, and add an additional controller to handle things such as PersistentVolume Labels. 
+- The controllers include Node, Route, Service, and add an additional controller to handle things such as *PersistentVolume* Labels.
+
+## Cluster DNS
+
+- Provides Cluster Wide DNS for Kubernetes Services.
+  - kube-dns (default pre 1.11) kube-dns is a wrapper around dnsmasq with another container in the pod that manages its config
+  - CoreDNS (current default) CoreDNS is a single golang  binary with a slew of plugins and much better native kubernetes support
+
+## Kube Dashboard
+
+A limited, general purpose web front end for the Kubernetes Cluster.
+
+## Heapster / Metrics API Server
+
+Provides metrics for use with other Kubernetes Components.
+
+- Heapster (deprecated, removed in Dec)
+- Metrics API (current)
 
 
 
@@ -73,6 +90,7 @@ https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-
 
 
 
+## Pod
 
 - The Smallest deployable entity in kubernetes is known as a Pod.
 - Pods run inside nodes, and containers run inside the pods.
@@ -92,15 +110,22 @@ Pods are created.
 - Wait for graceful termination (according to restart policy).
 - If a node dies before that pods are scheduled for recreation, a new pod is created with new UID. The old pod's state is not taken into consideration.
 
-Pod crashes? Must be handled at higher level. Pod specification does not handle auto-healing or scaling 
-- ReplicaSet, Deployment ,Service
-- ephemeral: IP addresses are ephemeral
-
-Higher level kubernetes objects
-- ReplicaSet,ReplicationController: Scaling,healing
-- Deployment: Versioning and rollback
-- Service: Static(non-ephemeral) IP and networking
-- Volume: Non-ephemeral storage
+# From CLI
+kubectl create -f - <<EOF
+apiVersion: v1
+kind: Pod
+metadata:
+  name: private-image-testing
+  labels:
+    app: demo
+    env: test
+spec:
+  containers:
+    - name: private-image-test
+      image: $YOUR_PRIVATE_IMAGE_NAME
+      imagePullPolicy: Always
+      command: [ "echo", "SUCCESS" ]
+EOF
 
 
 ## Services
@@ -111,3 +136,5 @@ Higher level kubernetes objects
   - static namespaced DNS name
 - **unofficially** Service is an internal load balancer to your pod(s).
 - Services are persistent objects used to reference ephermeral resources.
+
+

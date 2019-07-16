@@ -99,3 +99,17 @@ gcloud container clusters delete my-cluster
   5. The cluster passes as many end-to-end tests as possible.
 
 
+# Master to Cluster
+
+## apiserver to kubelet
+
+   The connections from the apiserver to the kubelet are used for:
+
+- Fetching logs for pods.
+- Attaching (through kubectl) to running pods.
+- Providing the kubelet’s port-forwarding functionality.
+
+## apiserver to nodes, pods, and services
+
+Kubernetes supports SSH tunnels to protect the Master -> Cluster communication paths.
+
