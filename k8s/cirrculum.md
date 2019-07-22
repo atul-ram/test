@@ -1,3 +1,4 @@
+https://cka-exam.blog/
 # Current Progress
 
 Certified Kubernetes Administrator (CKA) Exam Curriculum 1.14.1 (May 19)
