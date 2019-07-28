@@ -19,3 +19,16 @@ kubectl get secret my-dashboard-sa-token-xdcs -o yaml
 
 ## responsibility of a namespace admin
 https://docs.bitnami.com/kubernetes/how-to/configure-rbac-in-your-kubernetes-cluster/
+
+
+
+## https://github.com/Azure/AKS/issues/517
+
+According to k8s dashboard documentation, these are the minimal privileges needed:
+https://github.com/kubernetes/dashboard/wiki/Access-control#default-dashboard-privileges
+
+- create permission for secrets in kube-system namespace required to create kubernetes-dashboard-key-holder secret.
+- get, update and delete permissions for secrets named kubernetes-dashboard-key-holder and kubernetes-dashboard-certs in kube-system namespace.
+- get and update permissions for config map named kubernetes-dashboard-settings in kube-system namespace.
+proxy permission to heapster service in kube-system namespace required to allow getting metrics from heapster.
+

@@ -1,8 +1,15 @@
+
+
+https://docs.google.com/presentation/d/13EQKZSQDounPC1I6EC4PmqaRmdCrpT3qswQJz9KRCyE/edit#slide=id.gd9c453428_0_16
+
+https://kukulinski.com/10-most-common-reasons-kubernetes-deployments-fail-part-1/
 http://kubernetesbyexample.com/
 
 https://github.com/dgkanatsios/CKAD-exercises
 
 https://kubectl.docs.kubernetes.io/
+
+https://www.linkedin.com/pulse/my-ckad-exam-experience-atharva-chauthaiwale/
 
 
 

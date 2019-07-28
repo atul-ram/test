@@ -110,7 +110,7 @@ Pods are created.
 - Wait for graceful termination (according to restart policy).
 - If a node dies before that pods are scheduled for recreation, a new pod is created with new UID. The old pod's state is not taken into consideration.
 
-# From CLI
+### From CLI
 kubectl create -f - <<EOF
 apiVersion: v1
 kind: Pod
@@ -141,4 +141,67 @@ EOF
 ## Cluster Roles
 
 four cluster roles, admin, cluster-admin, edit, and view available by default in this setup
+
+## Namespace
+
+Namespaces provide a scope for names.Names of resources need to be unique within a namespace, but not across namespaces.
+
+Three pre-defined namespaces
+
+- default: if not specified
+- kube-system: for internal kubernetes objects
+- kube-public: auto redable by all users
+
+Dont use namespaces for versioning ,Just use labels instead
+
+## Labels
+
+- key/value pairs attached to objects
+- metadata
+- No semantics for kubernetes
+- loose coupling via selectors
+- same label cant repeat the key
+
+## Volumes
+
+Need for volumes
+
+- Permanence: Storage that lasts longer than lifetime of a pod
+- Shared state: Multiple containers in a pod need to share state/files
+- volumes: Address both these needs
+
+Important types of volumes
+
+- configMap
+  - configMap volume mounts data from ConfigMap object
+  - ConfigMap object define key-value pairs
+  - usecases:
+    - Providing config information for apps running inside pods
+    - Specifiying config information for control plane(controllers)
+- emptyDir
+  - created when pod is creted on node
+  - shared space/state across containers in same pod.
+  - usecases: Scratch space,checkpointing .
+  - when container crashes data remains,when pod removes/crashes,data lost
+- gitRepo
+  - mount an empty dir and clone a git repo into it.
+- secret
+  - pass sensitive information to pods
+  - secret is creaed and stored in control plane
+  - mount that secret as a volume so that it is available inside pod
+- hostPath
+  - mount file/directory from node filesystem into pod
+  - use cases: Access docker internals,running cAdvisor
+  - block devices or sockets on host
+
+Volumes(in general) : Lifetime of abstraction = lifetime of pod,this is longer than lifetimeof any container inside pod.
+
+Persistent Volumes: lifetime of abatraction independent of pod lifetime.
+
+
+## DemonSets
+
+- Usecase includes Monitoring Solution, Logs viewer, kube-proxy & Networking
+
+since v1.12 DemonSet uses NodeAffinity & default schedule
 
