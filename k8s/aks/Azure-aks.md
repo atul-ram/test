@@ -1,4 +1,6 @@
+## kubenetes the hard way on azure
 
+https://github.com/ivanfioravanti/kubernetes-the-hard-way-on-azure
 
 ## Latest AKS change log
 
