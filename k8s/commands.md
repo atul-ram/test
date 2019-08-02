@@ -13,7 +13,7 @@ kubectl get nodes
 kubectl get pods -o wide
 
 
-
+kubectl create service clusterip foobar --tcp=80:80 -o json --dry-run
 
 
 # Examples:
