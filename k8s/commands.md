@@ -12,6 +12,8 @@ kubectl --context=k8s14-euw-prod -n kube-system get pods | grep azure-ip-masq-ag
 kubectl get nodes
 kubectl get pods -o wide
 
+kubectl run nginx --image=nginx --restart=Never --port=80 --expose
+# observe that a pod as well as a service are created
 
 kubectl create service clusterip foobar --tcp=80:80 -o json --dry-run
 
