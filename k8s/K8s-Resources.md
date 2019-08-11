@@ -18,3 +18,6 @@
 
 
 [Kubernetes The Hard Way ](https://github.com/mmumshad/kubernetes-the-hard-way)
+
+
+https://interactive.linuxacademy.com/diagrams/ThePodofMinerva.html
