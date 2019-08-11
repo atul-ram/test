@@ -4,3 +4,6 @@ alias kgs='kubectl get svc'
 alias kgd='kubectl get deployments'
 alias kgcs='kubectl get componentstatuses'
 alias kgc='kubectl config get-context'
+
+source <(kubectl completion bash) # setup autocomplete in bash into the current shell
+echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
