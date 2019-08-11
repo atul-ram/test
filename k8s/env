@@ -1,0 +1,6 @@
+alias k='kubectl'
+alias kgp='kubectl get pods'
+alias kgs='kubectl get svc'
+alias kgd='kubectl get deployments'
+alias kgcs='kubectl get componentstatuses'
+alias kgc='kubectl config get-context'
