@@ -1,4 +1,5 @@
 https://github.com/krzko/awesome-cka
+https://github.com/twajr/ckad-prep-notes
 ### Kubernetes Concepts and Components
 
 - [Kubernetes Cluster RBAC audit2rbac](https://www.youtube.com/watch?v=Nw1ymxcLIDI) 
