@@ -1,4 +1,14 @@
 https://cka-exam.blog/
+https://github.com/walidshaari/Kubernetes-Certified-Administrator
+
+https://github.com/jmyung/cka-practice
+https://www.linkedin.com/pulse/how-ace-certified-kubernetes-administrator-exam-7-days-mohit-miglani/
+
+APRENDANOVAGAO0527 
+
+https://github.com/stretchcloud/cka-lab-practice
+
+
 # Current Progress
 
 Certified Kubernetes Administrator (CKA) Exam Curriculum 1.14.1 (May 19)

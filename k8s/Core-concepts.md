@@ -3,7 +3,7 @@ https://docs.google.com/presentation/d/1zrfVlE5r61ZNQrmXKx5gJmBcXnoa_WerHEnTxu5S
 https://ramitsurana.gitbooks.io/awesome-kubernetes/content/#cloud-providers
 https://medium.com/faun/how-to-pass-certified-kubernetes-administrator-cka-exam-on-first-attempt-36c0ceb4c9e
 
-![Control-plane.JPG](test\k8s\Control-plane.JPG)
+![Control-plane.JPG](.\Control-plane.JPG)
 
 # Control Plane Components
 
