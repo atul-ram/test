@@ -1,4 +1,4 @@
-
+https://github.com/ipochi/k8s-practice-questions/blob/master/practice-questions-with-solutions.md
 https://github.com/mstrzele/cka-exam-prep
 
 https://docs.google.com/presentation/d/13EQKZSQDounPC1I6EC4PmqaRmdCrpT3qswQJz9KRCyE/edit#slide=id.gd9c453428_0_16
