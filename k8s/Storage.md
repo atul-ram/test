@@ -1,4 +1,8 @@
+# Storage
 
+## Configure a volume to store these logs at /var/log/webapp on the host 
+
+```bash
 ---
 apiVersion: v1
 kind: Pod
@@ -18,14 +22,19 @@ spec:
   volumes:
   - name: log-volume
     hostPath:
-      # directory location on host
       path: /var/log/webapp
-      # this field is optional
       type: Directory
+      
+ ```
+ 
+ ## Configure a persistent volume
+ 
+ ```bash
+      
 ---
 apiVersion: v1
-kind: PersistentVolumemeta
-data:
+kind: PersistentVolume
+metadata:
    name: pv-log
 spec:
   accessModes:
@@ -34,7 +43,13 @@ spec:
   hostPath:
      path: /pv/log
      type: Directory
-     
+
+
+ ```
+ 
+ ## Configure a persistent volume Claim
+ 
+ ```bash
 ---
 apiVersion: v1
 kind: PersistentVolumeClaim
@@ -46,3 +61,33 @@ spec:
   resources:
     requests:
       storage: 50Mi
+      
+
+ ```
+ 
+ ## use the same persistent volume claim
+ 
+ ```bash
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: webapp
+spec:
+  containers:
+  - name: event-simulator
+    image: simulator
+    env:
+    - name: LOG_HANDLERS
+      value: file
+    volumeMounts:
+    - mountPath: /log
+      name: log-volume
+
+  volumes:
+  - name: log-volume
+    persistentVolumeClaim:
+      claimName: claim-log-1
+      
+ ```
+ 
