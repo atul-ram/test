@@ -24,7 +24,8 @@ spec:
       type: Directory
 ---
 apiVersion: v1
-kind: PersistentVolumemetadata:
+kind: PersistentVolumemeta
+data:
    name: pv-log
 spec:
   accessModes:
@@ -33,3 +34,15 @@ spec:
   hostPath:
      path: /pv/log
      type: Directory
+     
+---
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: claim-log-1
+spec:
+  accessModes:
+    - ReadWriteMany
+  resources:
+    requests:
+      storage: 50Mi
