@@ -34,6 +34,41 @@ az pipelines release show --id 10 --output json  --query " variables"
 ## variables by stage
 az pipelines release show --id 9  --query "environments[*].[name, variables]
 
+```bash
+
+C:\Windows\system32>az pipelines release show --id 10 --output json  --query "environments[*].[name, variables] "
+[
+  [
+    "Development",
+    {
+      "resourcegroupName": {
+        "allowOverride": null,
+        "isSecret": null,
+        "value": "atul02-d-rg"
+      }
+    }
+  ],
+  [
+    "Production",
+    {
+      "resourcegroupName": {
+        "allowOverride": null,
+        "isSecret": null,
+        "value": "atul02-p-rg"
+      }
+    }
+  ]
+]
+
+C:\Windows\system32>az pipelines release show --id 10 --output json  --query " variables"
+{
+  "resourcegroupName": {
+    "allowOverride": null,
+    "isSecret": null,
+    "value": "atul02-e-rg"
+  }
+}
+```
 
 C:\Windows\system32>az pipelines release show --id 8  --query variables -o json
 {
