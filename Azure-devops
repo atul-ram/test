@@ -34,6 +34,9 @@ az pipelines release show --id 10 --output json  --query " variables"
 ## variables by stage
 az pipelines release show --id 9  --query "environments[*].[name, variables]
 
+## variables where stage name = Development
+az pipelines release show --id 10 --output json  --query "environments[?name == 'Development'].variables"
+
 ```bash
 
 C:\Windows\system32>az pipelines release show --id 10 --output json  --query "environments[*].[name, variables] "
