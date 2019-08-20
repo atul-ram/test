@@ -62,6 +62,16 @@ C:\Windows\system32>az pipelines release show --id 10 --output json  --query "en
     }
   ]
 ]
+C:\Windows\system32>az pipelines release show --id 10 --output json  --query "environments[?name == 'Development'].variables"
+[
+  {
+    "resourcegroupName": {
+      "allowOverride": null,
+      "isSecret": null,
+      "value": "atul02-d-rg"
+    }
+  }
+]
 
 C:\Windows\system32>az pipelines release show --id 10 --output json  --query " variables"
 {
