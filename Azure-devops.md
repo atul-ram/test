@@ -45,6 +45,46 @@ az pipelines release show --id 10 --output json  --query "environments[?name == 
 ## variables, variable group where stage name = Development
 ```
 az pipelines release show --id 11 --output json --query "environments[?name == 'Development'].[name, variables, variableGroups[].name] "
+
+C:\Users\Atul>az pipelines release show --id 11 --output json --query "environments[?name == 'Development'].[name, variables, variableGroups] "
+[
+  [
+    "Development",
+    {
+      "resourcegroupName": {
+        "allowOverride": null,
+        "isSecret": null,
+        "value": "atul02-d-rg"
+      }
+    },
+    [
+      {
+        "createdBy": null,
+        "createdOn": null,
+        "description": null,
+        "id": 1,
+        "isShared": false,
+        "modifiedBy": null,
+        "modifiedOn": null,
+        "name": "variableGroup1",
+        "providerData": null,
+        "type": "Vsts",
+        "variableGroupProjectReferences": null,
+        "variables": {
+          "variable1": {
+            "isSecret": null,
+            "value": "value1"
+          },
+          "variable2": {
+            "isSecret": null,
+            "value": "value2"
+          }
+        }
+      }
+    ]
+  ]
+]
+
 ```
 ```bash
 
