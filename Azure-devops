@@ -1,0 +1,5 @@
+az configure --defaults location=westus2 group=MyResourceGroup
+
+az devops configure --defaults organization=https://dev.azure.com/atulsahu/ 
+az devops configure --defaults project=phippyandfriends
+
