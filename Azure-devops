@@ -24,8 +24,11 @@ az pipelines release show --id 8
 
 az pipelines release show --id 8  --query variables -o json
 
-C:\Windows\system32>az pipelines release show --id 8  --query variables.registryLogin.value  -o json
+az pipelines release show --id 8  --query variables.registryLogin.value  -o json
 "fd9be49f-bf93-444e-9357-e2bd4e47e2a9"
+
+az pipelines release show --id 9  --query environments[*].variables   -o json
+
 
 C:\Windows\system32>az pipelines release show --id 8  --query variables -o json
 {
