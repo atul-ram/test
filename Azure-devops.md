@@ -72,7 +72,7 @@ C:\Windows\system32>az pipelines release show --id 10 --output json  --query " v
   }
 }
 ```
-
+```
 C:\Windows\system32>az pipelines release show --id 8  --query variables -o json
 {
   "projectName": {
@@ -96,3 +96,4 @@ C:\Windows\system32>az pipelines release show --id 8  --query variables -o json
     "value": "xJyEqekNv2ytsGv110uRkK7WfF8R6vQRKBhBwEPAbBk="
   }
 }
+```
