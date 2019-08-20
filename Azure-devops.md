@@ -34,7 +34,7 @@ az pipelines release list --output json --query "[].releaseDefinition.[name, pat
 ## variables by release
 az pipelines release show --id 10 --output json  --query " variables"
 
-az pipelines release list --output json  --query "[?contains(name,'AMOR')].releaseDefinition.id "
+az pipelines release list --output json  --query "[?contains(name,'ABC')].releaseDefinition.id "
 
 ## variables by stage
 az pipelines release show --id 9  --query "environments[*].[name, variables]
