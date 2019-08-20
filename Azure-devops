@@ -29,6 +29,9 @@ az pipelines release show --id 8  --query variables.registryLogin.value  -o json
 
 az pipelines release show --id 9  --query environments[*].variables   -o json
 
+## variables by release
+az pipelines release show --id 10 --output json  --query " variables"
+## variables by stage
 az pipelines release show --id 9  --query "environments[*].[name, variables]
 
 
