@@ -3,3 +3,21 @@ az configure --defaults location=westus2 group=MyResourceGroup
 az devops configure --defaults organization=https://dev.azure.com/atulsahu/ 
 az devops configure --defaults project=phippyandfriends
 
+
+# Pipeline
+
+
+```bash
+C:\Windows\system32>az pipelines release list
+ID    Name       Definition Name    Created By    Created On                  Status    Description
+----  ---------  -----------------  ------------  --------------------------  --------  -------------
+8     Release-1  Phippy             atul.sahu     2019-02-21 21:07:08.260000  active
+7     Release-1  NodeBrady          atul.sahu     2019-02-21 21:06:26.480000  active
+6     Release-1  CaptainKube        atul.sahu     2019-02-21 20:53:23.537000  active
+5     Release-4  Parrot-deploy      atul.sahu     2019-02-21 20:51:15.440000  active
+4     Release-3  Parrot-deploy      atul.sahu     2019-02-21 20:33:57.140000  active
+```
+az pipelines release show --id 8
+
+
+
