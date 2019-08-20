@@ -3,6 +3,9 @@ az configure --defaults location=westus2 group=MyResourceGroup
 az devops configure --defaults organization=https://dev.azure.com/atulsahu/ 
 az devops configure --defaults project=phippyandfriends
 
+$az devops login --organization https://dev.azure.com/contoso
+Token:
+
 
 # Pipeline
 
@@ -19,5 +22,29 @@ ID    Name       Definition Name    Created By    Created On                  St
 ```
 az pipelines release show --id 8
 
+az pipelines release show --id 8  --query variables -o json
 
 
+C:\Windows\system32>az pipelines release show --id 8  --query variables -o json
+{
+  "projectName": {
+    "allowOverride": null,
+    "isSecret": null,
+    "value": "phippy"
+  },
+  "registryLogin": {
+    "allowOverride": null,
+    "isSecret": null,
+    "value": "fd9be49f-bf93-444e-9357-e2bd4e47e2a9"
+  },
+  "registryName": {
+    "allowOverride": null,
+    "isSecret": null,
+    "value": "mycontainerregistry9281"
+  },
+  "registryPassword": {
+    "allowOverride": null,
+    "isSecret": null,
+    "value": "xJyEqekNv2ytsGv110uRkK7WfF8R6vQRKBhBwEPAbBk="
+  }
+}
