@@ -8,7 +8,6 @@ https://github.com/Azure/AKS/blob/master/CHANGELOG.md
 
 - [Preview - Limit egress traffic for cluster nodes and control access to required ports and services in Azure Kubernetes Service](https://docs.microsoft.com/en-us/azure/aks/limit-egress-traffic#required-ports-and-addresses-for-aks-clusters)
 
-
 ## AKS team Dashboard
 
 https://github.com/Azure/AKS/projects/1
@@ -20,6 +19,11 @@ https://github.com/kubernetes/cloud-provider-azure/blob/master/docs/cloud-provid
 https://cloudmanagement.navisite.com/azure-kubernetes-service-aks-network-design/
 
 https://docs.microsoft.com/en-us/azure/governance/policy/concepts/rego-for-aks
+
+## set of improvment points, since last visit
+
+https://github.com/Azure/kubernetes-keyvault-flexvol
+
 
 # Common commands
 
