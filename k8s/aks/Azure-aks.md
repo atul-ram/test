@@ -23,7 +23,7 @@ https://docs.microsoft.com/en-us/azure/governance/policy/concepts/rego-for-aks
 ## set of improvment points, since last visit
 
 https://github.com/Azure/kubernetes-keyvault-flexvol
-
+https://docs.microsoft.com/en-us/azure/aks/view-master-logs TBD
 
 # Common commands
 
