@@ -24,6 +24,8 @@ kubectl run --generator=run-pod/v1 nginx --image=nginx --dry-run -o yaml
 
 ```sh
 kubectl create deployment --image=nginx nginx --dry-run -o yaml
+
+kubectl set resources deployment nginx -c=nginx --limits=cpu=200m,memory=512Mi
 ```
 
 ## Generate Deployment YAML file (-o yaml). Don't create it(--dry-run) with 4 Replicas (--replicas=4)

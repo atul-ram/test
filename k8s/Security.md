@@ -16,6 +16,31 @@ kubectl create role developer --verb=get,list,watch --resource=pods --resource=C
 
 kubectl create rolebinding  developer-binding --role=developer --user=cluster-admin --dry-run  -o yaml
 
+kubectl auth can-i create deployments --
+kubectl auth can-i delete nodes
+
 ## Cluster Role & Cluster Role Binding
 
 ## Security Context
+
+kubectl create secret docker-registry regcred --docker-server="" --docker-username="" --docker-password="" --docker-email="" 
+
+apiVersion: v1kind: Pod
+metadata:
+  creationTimestamp: null
+  labels:
+    run: podname
+  name: podname
+spec:  
+securityContext:
+  runasUser: 1000
+containers:
+  - image: nginx
+    imagePullPolicy: IfNotPresent
+    name: podname
+    resources: {}
+imagePullsecrets:
+-name: regcred 
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
