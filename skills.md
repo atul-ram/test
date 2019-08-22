@@ -11,6 +11,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # TODO
 
+[preparation guide for Az400 ](https://stanislas.io/2019/07/26/preparation-guide-for-microsoft-az-400-microsoft-azure-devops-solutions-certification/)
+
 [Azure: Explore Azure Functions and Logic Apps by Instructor Neha Gajakos](https://learning.oreilly.com/learning-paths/learning-path-azure/9781788833905/9781787286580-video3_1)
 
 [Serverless Azure Functions: Debugging, Deployment and Chatbots by Omkar Dusane](https://learning.oreilly.com/videos/serverless-azure-functions/9781788474184?autoplay=false)
