@@ -29,6 +29,19 @@ TBD https://docs.microsoft.com/en-us/azure/aks/view-master-logs
 To secure access to the otherwise publicly accessible AKS control plane / API server, you can enable and use authorized IP ranges. These authorized IP ranges only allow defined IP address ranges to communicate with the API server. A request made to the API server from an IP address that is not part of these authorized IP ranges is blocked. You should continue to use RBAC to then authorize users and the actions they request.
 https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges#enable-authorized-ip-ranges
 
+The feature registration tells the cluster to only pull core system images from container image repositories housed in the Microsoft Container Registry (MCR). Otherwise, clusters could try to pull container images for the core components from external repositories. There is some additional routing that also occurs for the cluster to do this. The list of ports and addresses are then what's required for you to permit when the egress traffic is restricted. You can't simply limit the egress traffic to only those address without the feature being enabled for the cluster.
+https://docs.microsoft.com/en-us/azure/aks/limit-egress-traffic
+
+Fixed an issue with az aks update-credentials where the command would not take special characters and nodes would get incorrect values. Note that double quote " , backslash \, ampersand &, and angle quotations <> are still NOT allowed to be used as password characters.
+https://github.com/Azure/AKS/blob/master/CHANGELOG.md#release-2019-07-01
+
+ 
+ Please add to aks create action as network policy is GA now
+ --network-policy azure
+ 
+ https://github.com/Azure/AKS/blob/master/CHANGELOG.md#release-2019-05-06
+ 
+ 
 # Common commands
 
 ```sh
