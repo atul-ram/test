@@ -26,6 +26,7 @@ https://github.com/Azure/kubernetes-keyvault-flexvol
 
 TBD https://docs.microsoft.com/en-us/azure/aks/view-master-logs 
 
+To secure access to the otherwise publicly accessible AKS control plane / API server, you can enable and use authorized IP ranges. These authorized IP ranges only allow defined IP address ranges to communicate with the API server. A request made to the API server from an IP address that is not part of these authorized IP ranges is blocked. You should continue to use RBAC to then authorize users and the actions they request.
 https://docs.microsoft.com/en-us/azure/aks/api-server-authorized-ip-ranges#enable-authorized-ip-ranges
 
 # Common commands
