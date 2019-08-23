@@ -25,7 +25,8 @@ kubectl auth can-i delete nodes
 ```bash
 kubectl create secret docker-registry regcred --docker-server="" --docker-username="" --docker-password="" --docker-email="" 
 
-apiVersion: v1kind: Pod
+apiVersion: v1
+kind: Pod
 metadata:
   creationTimestamp: null
   labels:
