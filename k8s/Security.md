@@ -22,7 +22,7 @@ kubectl auth can-i delete nodes
 ## Cluster Role & Cluster Role Binding
 
 ## Security Context
-
+```bash
 kubectl create secret docker-registry regcred --docker-server="" --docker-username="" --docker-password="" --docker-email="" 
 
 apiVersion: v1kind: Pod
@@ -44,3 +44,4 @@ imagePullsecrets:
   dnsPolicy: ClusterFirst
   restartPolicy: Always
 status: {}
+```
