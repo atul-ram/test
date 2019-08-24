@@ -16,7 +16,8 @@ kubectl create role developer --verb=get,list,watch --resource=pods --resource=C
 
 kubectl create rolebinding  developer-binding --role=developer --user=cluster-admin --dry-run  -o yaml
 
-kubectl auth can-i create deployments --
+kubectl auth can-i create deployments --as dave
+
 kubectl auth can-i delete nodes
 
 ## Cluster Role & Cluster Role Binding
