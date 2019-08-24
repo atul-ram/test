@@ -1,4 +1,6 @@
-TLS bootstrapping a node 
+TLS bootstrapping
+https://medium.com/@toddrosner/kubernetes-tls-bootstrapping-cf203776abc7
+
 
 
 https://labs.play-with-k8s.com/
