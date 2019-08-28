@@ -10,6 +10,8 @@ https://www.youtube.com/watch?v=5jX1tIqWsrw
 
 https://www.youtube.com/watch?v=RjsNmapggPU
 
+## Operational best practices for Azure Kubernetes Service - BRK3208
+
 ## workshop
 
 https://aksworkshop.io/
