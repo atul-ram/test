@@ -6,6 +6,10 @@ https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS
 
 https://www.youtube.com/watch?v=5jX1tIqWsrw
 
+## How to monitor your Kubernetes clusters | Kubernetes Best Practices Series
+
+https://www.youtube.com/watch?v=RjsNmapggPU
+
 ## workshop
 
 https://aksworkshop.io/
