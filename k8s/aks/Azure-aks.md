@@ -1,3 +1,8 @@
+## info hub
+
+https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS
+
+
 ## workshop
 
 https://aksworkshop.io/
