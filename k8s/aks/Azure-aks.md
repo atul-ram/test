@@ -52,6 +52,9 @@ https://github.com/Azure/AKS/blob/master/CHANGELOG.md#release-2019-07-01
  Please add to aks create action as network policy is GA now
  --network-policy azure
  
+ https://www.youtube.com/watch?v=131_TIa_ftI
+ 
+ 
  https://github.com/Azure/AKS/blob/master/CHANGELOG.md#release-2019-05-06
  
  
