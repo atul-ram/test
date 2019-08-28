@@ -2,6 +2,9 @@
 
 https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS
 
+## enterprise security 
+
+https://www.youtube.com/watch?v=5jX1tIqWsrw
 
 ## workshop
 
