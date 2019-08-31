@@ -1,3 +1,7 @@
+# Qucik Links
+  - [Services Map](https://nnmer.github.io/azure-services-map/dist/#)
+  - [Azure Info Hub](https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS)
+
 # Skills
 
 Skill| Course name
