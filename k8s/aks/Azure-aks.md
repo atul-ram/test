@@ -182,6 +182,9 @@ https://login.microsoftonline.com/tenant-id/.well-known/openid-configuration
 
 https://docs.microsoft.com/en-us/azure/aks/load-balancer-standard
 
+# VSTS project
+
+https://almvm.devopshub.cn/labs/vstsextend/kubernetes/
 
 # List DaemonSets 
 
