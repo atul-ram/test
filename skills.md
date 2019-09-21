@@ -41,8 +41,10 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # Important
 
-[www.azuredevopslabs.com](https://www.azuredevopslabs.com/) <br>
+[www.azuredevopslabs.com](https://www.azuredevopslabs.com/)
+
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
+
 [Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
 
 
