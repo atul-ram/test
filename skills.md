@@ -43,6 +43,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [www.azuredevopslabs.com](https://www.azuredevopslabs.com/) <br>
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
+[Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
+
 
 
 AKS RBAC
