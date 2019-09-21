@@ -15,6 +15,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # TODO
 
+[Azure Exam Resource](https://gregorsuttie.com/2019/05/13/azure-exam-resources/)
+
 [preparation guide for Az400 ](https://stanislas.io/2019/07/26/preparation-guide-for-microsoft-az-400-microsoft-azure-devops-solutions-certification/)
 
 [Azure: Explore Azure Functions and Logic Apps by Instructor Neha Gajakos](https://learning.oreilly.com/learning-paths/learning-path-azure/9781788833905/9781787286580-video3_1)
