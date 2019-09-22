@@ -45,9 +45,16 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
 
-[Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
 
 
 
 AKS RBAC
 https://dzone.com/articles/aks-scratch-to-production-ready
+
+
+
+# Monitoring
+
+[Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
+
+[Log Analytics Examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples/tree/master/log-analytics)
