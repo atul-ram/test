@@ -60,3 +60,5 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 [Log Analytics Examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples/tree/master/log-analytics)
 
 [AKS LogAnalytics examples](https://raw.githubusercontent.com/Azure/k8s-best-practices/master/aks-azure-monitor/examples)
+
+[AKS best pratices](https://github.com/Azure/k8s-best-practices)
