@@ -58,3 +58,5 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 [Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
 
 [Log Analytics Examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples/tree/master/log-analytics)
+
+[AKS LogAnalytics examples](https://raw.githubusercontent.com/Azure/k8s-best-practices/master/aks-azure-monitor/examples)
