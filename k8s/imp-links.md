@@ -1,3 +1,5 @@
+https://medium.com/@amgill1234/how-i-cleared-99-on-cka-exam-9b56cc76bf5b
+
 https://github.com/twajr/cka-prep-labs/blob/master/labs/README.md
 
 ## Core Concepts and Kubectl
