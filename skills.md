@@ -29,15 +29,24 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Understanding Azure Logic Apps by Eduardo FreitasVictoria Clark](https://learning.oreilly.com/videos/understanding-azure-logic/9781788476997?autoplay=false)
 
-[Microsoft AZ-301 Certification: Azure Architect Design By Nick Colyer](https://learning.oreilly.com/videos/microsoft-az-301-certification/1018947653)
 
 [Microsoft AZ-300 Certification Course: Azure Architect ](https://learning.oreilly.com/videos/microsoft-az-300-certification/1018947654)
+
+[Microsoft AZ-301 Certification: Azure Architect Design By Nick Colyer](https://learning.oreilly.com/videos/microsoft-az-301-certification/1018947653)
 
 [Microsoft AZ-101 Certification: Azure Integration and Security](https://learning.oreilly.com/videos/microsoft-az-101-certification/1018947649)
 
 [Microsoft AZ-100 Certification Course: Microsoft Azure Infrastructure and Deployment](https://learning.oreilly.com/videos/microsoft-az-100-certification/10009AZ100454545)
 
 [Agile Scrum Course: Scrum Fundamentals -Scrum Certification](https://learning.oreilly.com/videos/agile-scrum-course/9781838644987)
+
+#Safari Recording
+
+[AZ-300](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
+
+[AZ-301](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
+
+[Building and Managing Kubernetes Applications](http://click.et.oreilly.com/?qs=20d09059bceef303af49dae7261dc9594b8a368191563283df85d945f8b23d5fc44e9e42a04a4fd65a6ff83745b76b2831f57fcf18e2c901b52c28ab84417c48)
 
 # Important
 
