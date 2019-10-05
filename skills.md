@@ -77,6 +77,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # Azure Friday
 
+- [How to export your resources to CSV using the Azure Portal ](https://youtu.be/Kfrx0TpCgPc)
+
 - [Azure Backup](https://youtu.be/HJeCqbbT-5s)
 
 - [Azure Availability Zones](https://youtu.be/PP02QxplC2E)
