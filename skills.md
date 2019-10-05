@@ -62,8 +62,8 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 
 # How to
 
-[![How to make the most out of Azure Advisor](https://img.youtube.com/vi/ANz3cCiFsJw/default.jpg)](https://www.youtube.com/watch?v=ANz3cCiFsJw&list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR&index=6&t=0s)
 
+[![How to make the most out of Azure Advisor](https://img.youtube.com/vi/ANz3cCiFsJw/mqdefault.jpg)](https://youtu.be/ANz3cCiFsJw)
 
 [How to use the Global Search in the Azure portal](https://youtu.be/nZ7WwTZcQbo)
 
