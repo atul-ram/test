@@ -60,7 +60,13 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 AKS RBAC
 https://dzone.com/articles/aks-scratch-to-production-ready
 
+# How to
 
+[How to make the most out of Azure Advisor](https://www.youtube.com/watch?v=ANz3cCiFsJw&list=PLLasX02E8BPBKgXP4oflOL29TtqTzwhxR&index=6&t=0s)
+
+[How to use the Global Search in the Azure portal](https://youtu.be/nZ7WwTZcQbo)
+
+[How to inventory Azure resources at scale](https://youtu.be/iVlZdCOfKlU)
 
 # Monitoring
 
