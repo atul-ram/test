@@ -70,6 +70,8 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 
 [How to create, share, and use Azure Portal dashboards](https://youtu.be/GetnBRKNXco)
 
+[Explore self-help support options](https://youtu.be/gNhzR5FE9DY)
+
 # Monitoring
 
 [Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
