@@ -73,6 +73,13 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [How to create, share, and use Azure Portal dashboards](https://youtu.be/GetnBRKNXco)
 
+# Azure Friday
+
+- [Azure Backup](https://youtu.be/HJeCqbbT-5s)
+
+- [Azure Availability Zones](https://youtu.be/PP02QxplC2E)
+
+- [Unified alerts in Azure Monitor ](https://youtu.be/Z_YzDtRy4_0)
 
 # video blog
 
