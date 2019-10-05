@@ -61,6 +61,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # How to
 
+[Differences between Azure Service Health, Resource Health, and Status](https://youtu.be/xKMfSSGk9gU)
+
 [![How to make the most out of Azure Advisor](https://img.youtube.com/vi/ANz3cCiFsJw/mqdefault.jpg)](https://youtu.be/ANz3cCiFsJw)
 
 [![How to use the Global Search in the Azure portal](https://img.youtube.com/vi/nZ7WwTZcQbo/mqdefault.jpg)](https://youtu.be/nZ7WwTZcQbo)
