@@ -67,11 +67,11 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 
 [![How to use the Global Search in the Azure portal](https://img.youtube.com/vi/nZ7WwTZcQbo/mqdefault.jpg)](https://youtu.be/nZ7WwTZcQbo)
 
-[How to inventory Azure resources at scale](https://youtu.be/iVlZdCOfKlU)
+[![How to inventory Azure resources at scale](https://img.youtube.com/vi/iVlZdCOfKlU/mqdefault.jpg)](https://youtu.be/iVlZdCOfKlU)
 
 [How to create, share, and use Azure Portal dashboards](https://youtu.be/GetnBRKNXco)
 
-[Explore self-help support options](https://youtu.be/gNhzR5FE9DY)
+[![Explore self-help support options[(https://img.youtube.com/vi/gNhzR5FE9DY/mqdefault.jpg)](https://youtu.be/gNhzR5FE9DY)
 
 # Monitoring
 
