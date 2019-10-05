@@ -68,6 +68,8 @@ https://dzone.com/articles/aks-scratch-to-production-ready
 
 [How to inventory Azure resources at scale](https://youtu.be/iVlZdCOfKlU)
 
+[How to create, share, and use Azure Portal dashboards](https://youtu.be/GetnBRKNXco)
+
 # Monitoring
 
 [Respond to events with Azure Monitor Alerts](https://docs.microsoft.com/en-us/azure/azure-monitor/learn/tutorial-response)
