@@ -69,7 +69,15 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [![Explore self-help support options](https://img.youtube.com/vi/gNhzR5FE9DY/mqdefault.jpg)](https://youtu.be/gNhzR5FE9DY)
 
+[![How to use the Azure Activity Log](https://img.youtube.com/vi/ACVpH6C_NL8/mqdefault.jpg)](https://youtu.be/ACVpH6C_NL8)
+
 [How to create, share, and use Azure Portal dashboards](https://youtu.be/GetnBRKNXco)
+
+
+# video blog
+
+- How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
+
 
 # Monitoring
 
