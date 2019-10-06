@@ -12,6 +12,10 @@ https://www.youtube.com/watch?v=RjsNmapggPU
 
 ## Operational best practices for Azure Kubernetes Service - BRK3208
 
+## internal loadbalancer
+
+https://clemenssiebler.com/deploying-internal-applications-with-private-ips-on-azure-kubernetes-service-aks/
+
 ## workshop
 
 https://aksworkshop.io/
