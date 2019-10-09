@@ -85,6 +85,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 - [Unified alerts in Azure Monitor ](https://youtu.be/Z_YzDtRy4_0)
 
+- [security center](https://www.youtube.com/watch?v=t6gp9k78XEw)
+
 # video blog
 
 - How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
