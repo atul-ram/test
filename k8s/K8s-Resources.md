@@ -4,6 +4,7 @@ https://github.com/twajr/ckad-prep-notes
 
 [Kubernetes The Hard Way ](https://github.com/mmumshad/kubernetes-the-hard-way)
 
+https://www.youtube.com/watch?v=WFGPArjYMbQ
 
 https://interactive.linuxacademy.com/diagrams/ThePodofMinerva.html
 
