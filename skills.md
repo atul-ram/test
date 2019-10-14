@@ -1,3 +1,7 @@
+# Azure update 
+- [Azure Products by region](https://azure.microsoft.com/en-us/global-infrastructure/services/?regions=europe-west,europe-north)
+- [Azure updates](https://azure.microsoft.com/en-us/updates/?status=nowavailable)
+
 # Qucik Links
   - [Services Map](https://nnmer.github.io/azure-services-map/dist/#)
   - [Azure Info Hub](https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS)
