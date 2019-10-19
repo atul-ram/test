@@ -109,6 +109,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Log Analytics Examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples/tree/master/log-analytics)
 
+[TOC log analytics examples](https://github.com/MicrosoftDocs/LogAnalyticsExamples/blob/master/log-analytics.md)
+
 [AKS LogAnalytics examples](https://raw.githubusercontent.com/Azure/k8s-best-practices/master/aks-azure-monitor/examples)
 
 [AKS best pratices](https://github.com/Azure/k8s-best-practices)
