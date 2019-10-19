@@ -99,6 +99,9 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 - How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
 
+# youtube cutter 
+
+- https://ytcutter.com/
 
 # Monitoring
 
