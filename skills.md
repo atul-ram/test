@@ -3,6 +3,7 @@
 - [Azure updates](https://azure.microsoft.com/en-us/updates/?status=nowavailable)
 
 # Qucik Links
+  - [All event videos] (https://azure.microsoft.com/en-us/resources/videos/index/?series=ignite-2019&Page=1&sort=newest)
   - [Azure Speed Test](http://www.azurespeed.com/)
   - [Services Map](https://nnmer.github.io/azure-services-map/dist/#)
   - [Azure Info Hub](https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS)
