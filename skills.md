@@ -120,3 +120,5 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 [AKS LogAnalytics examples](https://raw.githubusercontent.com/Azure/k8s-best-practices/master/aks-azure-monitor/examples)
 
 [AKS best pratices](https://github.com/Azure/k8s-best-practices)
+
+[FAQ app-service linux](https://github.com/Azure/app-service-linux-docs)
