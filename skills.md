@@ -3,11 +3,11 @@
 - [Azure updates](https://azure.microsoft.com/en-us/updates/?status=nowavailable)
 
 # Qucik Links
-  - [All event videos] (https://azure.microsoft.com/en-us/resources/videos/index/?series=ignite-2019&Page=1&sort=newest)
+  - [All event videos](https://azure.microsoft.com/en-us/resources/videos/index/?series=ignite-2019&Page=1&sort=newest)
   - [Azure Speed Test](http://www.azurespeed.com/)
   - [Services Map](https://nnmer.github.io/azure-services-map/dist/#)
   - [Azure Info Hub](https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS)
-  - [visualize ARM template] (http://armviewer.azurewebsites.net/)
+  - [visualize ARM template](http://armviewer.azurewebsites.net/)
   - [On demand ignite videos](https://myignite.techcommunity.microsoft.com/videos?t=%257B%2522from%2522%253A%25222019-11-03T08%253A00%253A00-05%253A00%2522%252C%2522to%2522%253A%25222019-11-08T19%253A00%253A00-05%253A00%2522%257D)
 
 # Skills
