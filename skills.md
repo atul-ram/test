@@ -101,6 +101,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 - [security center](https://www.youtube.com/watch?v=t6gp9k78XEw)
 
+- [How to choose which services to use in Azure](https://www.youtube.com/embed/ZpK_lv6HJkQ)
+
 # video blog
 
 - How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
