@@ -105,6 +105,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 - [How to choose which services to use in Azure](https://www.youtube.com/embed/ZpK_lv6HJkQ)
 
+- [App Service diagnostics](https://www.youtube.com/embed/PtWC43_D0KU)
+
 # video blog
 
 - How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
