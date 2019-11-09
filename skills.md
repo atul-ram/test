@@ -52,6 +52,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Az-203](https://learning.oreilly.com/live-training/courses/exam-az-203-developing-solutions-for-microsoft-azure-crash-course/0636920327691/)
 
+[AZ-103](https://learning.oreilly.com/live-training/courses/getting-started-microsoft-certified-azure-administrator/0636920311348/)
+
 [AZ-300](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
 
 [AZ 300 study guide](https://wedoazure.ie/2019/07/10/az-300-microsoft-azure-architect-technologies-study-guide/)
