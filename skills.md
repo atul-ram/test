@@ -130,5 +130,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 [FAQ app-service linux](https://github.com/Azure/app-service-linux-docs)
 
 # Ignite URLs
-  [Learning from failure](https://docs.microsoft.com/en-us/users/msignite2019/collections/dw7i5jo18m1z)
+  [Learning from failure](https://aka.ms/OPS30MSLearnCollection)
+  [Building the foundation for Modern Ops: Monitoring](https://aka.ms/OPS10MSLearnCollection)
+  [Responding to incidents](https://aka.ms/OPS20MSLearnCollection)
   
