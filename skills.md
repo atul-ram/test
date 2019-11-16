@@ -130,7 +130,10 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 [FAQ app-service linux](https://github.com/Azure/app-service-linux-docs)
 
 # Ignite URLs
-  - [Learning from failure](https://aka.ms/OPS30MSLearnCollection)
   - [Building the foundation for Modern Ops: Monitoring](https://aka.ms/OPS10MSLearnCollection)
   - [Responding to incidents](https://aka.ms/OPS20MSLearnCollection)
+  - [Learning from failure](https://aka.ms/OPS30MSLearnCollection)
+  - [Deployment practices for greater reliability](https://aka.ms/OPS40MSLearnCollection)
+  - [Preparing for growth: Capacity planning and scaling](https://aka.ms/OPS50MSLearnCollection)
+  
   
