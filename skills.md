@@ -128,3 +128,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 [AKS best pratices](https://github.com/Azure/k8s-best-practices)
 
 [FAQ app-service linux](https://github.com/Azure/app-service-linux-docs)
+
+# Ignite URLs
+  [Learning from failure](https://docs.microsoft.com/en-us/users/msignite2019/collections/dw7i5jo18m1z)
+  
