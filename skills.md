@@ -50,17 +50,13 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # Safari Recording
 
-[Az-203](https://learning.oreilly.com/live-training/courses/exam-az-203-developing-solutions-for-microsoft-azure-crash-course/0636920327691/)
-
-[AZ-103](https://learning.oreilly.com/live-training/courses/getting-started-microsoft-certified-azure-administrator/0636920311348/)
-
-[AZ-300](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
-
-[AZ 300 study guide](https://wedoazure.ie/2019/07/10/az-300-microsoft-azure-architect-technologies-study-guide/)
-
-[AZ-301](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
-
-[AZ 301 study guide](https://wedoazure.ie/2019/07/10/az-301-microsoft-azure-architect-design-study-guide/)
+1. [Az-203](https://learning.oreilly.com/live-training/courses/exam-az-203-developing-solutions-for-microsoft-azure-crash-course/0636920327691/)
+1. [AZ-103](https://learning.oreilly.com/live-training/courses/getting-started-microsoft-certified-azure-administrator/0636920311348/)
+1. [AZ-103 -Tim](https://learning.oreilly.com/live-training/courses/exam-az-103-microsoft-azure-administrator-crash-course/0636920313311/)
+1. [AZ-300 -Tim](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
+1. [AZ 300 study guide](https://wedoazure.ie/2019/07/10/az-300-microsoft-azure-architect-technologies-study-guide/)
+1. [AZ-301 -Tim](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
+1. [AZ 301 study guide](https://wedoazure.ie/2019/07/10/az-301-microsoft-azure-architect-design-study-guide/)
 
 [Building and Managing Kubernetes Applications](http://click.et.oreilly.com/?qs=20d09059bceef303af49dae7261dc9594b8a368191563283df85d945f8b23d5fc44e9e42a04a4fd65a6ff83745b76b2831f57fcf18e2c901b52c28ab84417c48)
 
