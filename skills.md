@@ -133,4 +133,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
   - [Deployment practices for greater reliability](https://aka.ms/OPS40MSLearnCollection)
   - [Preparing for growth: Capacity planning and scaling](https://aka.ms/OPS50MSLearnCollection)
   
+# azureAD
+- [How to choose the right authentication option in Azure Active Directory](https://www.youtube.com/watch?v=YtW2cmVqSEw)
+  
   
