@@ -1,0 +1,4 @@
+maxmemory 2mb
+maxmemory-policy allkeys-lru
+loglevel debug
+logfile /log/redis.log
