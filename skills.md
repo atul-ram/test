@@ -3,8 +3,12 @@
 - [Azure updates](https://azure.microsoft.com/en-us/updates/?status=nowavailable)
 
 # Qucik Links
+  - [All event videos](https://azure.microsoft.com/en-us/resources/videos/index/?series=ignite-2019&Page=1&sort=newest)
+  - [Azure Speed Test](http://www.azurespeed.com/)
   - [Services Map](https://nnmer.github.io/azure-services-map/dist/#)
   - [Azure Info Hub](https://azureinfohub.azurewebsites.net/Service?serviceTitle=AKS)
+  - [visualize ARM template](http://armviewer.azurewebsites.net/)
+  - [On demand ignite videos](https://myignite.techcommunity.microsoft.com/videos?t=%257B%2522from%2522%253A%25222019-11-03T08%253A00%253A00-05%253A00%2522%252C%2522to%2522%253A%25222019-11-08T19%253A00%253A00-05%253A00%2522%257D)
 
 # Skills
 
@@ -44,15 +48,16 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Agile Scrum Course: Scrum Fundamentals -Scrum Certification](https://learning.oreilly.com/videos/agile-scrum-course/9781838644987)
 
-#Safari Recording
+# Safari Recording
 
-[AZ-300](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
-
-[AZ 300 study guide](https://wedoazure.ie/2019/07/10/az-300-microsoft-azure-architect-technologies-study-guide/)
-
-[AZ-301](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
-
-[AZ 301 study guide](https://wedoazure.ie/2019/07/10/az-301-microsoft-azure-architect-design-study-guide/)
+1. [Az-203](https://learning.oreilly.com/live-training/courses/exam-az-203-developing-solutions-for-microsoft-azure-crash-course/0636920327691/)
+1. [AZ-103](https://learning.oreilly.com/live-training/courses/getting-started-microsoft-certified-azure-administrator/0636920311348/)
+1. [AZ-103 -Tim](https://learning.oreilly.com/live-training/courses/exam-az-103-microsoft-azure-administrator-crash-course/0636920313311/)
+1. [AZ-300 -Tim](http://click.et.oreilly.com/?qs=ab487a1b15b830f640be57b4e604c6772028557e670ad30d40f4d0f7fc1bf1304fe972a5bf5891b6ae943d34346a42428ada3528d2de30e7b82b98cea4257950)
+1. [AZ 300 study guide](https://wedoazure.ie/2019/07/10/az-300-microsoft-azure-architect-technologies-study-guide/)
+1. [AZ-301 -Tim](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
+1. [AZ-301 -Tim](https://learning.oreilly.com/live-training/courses/exam-az-301-microsoft-azure-architect-design-crash-course/0636920312970/)
+1. [AZ 301 study guide](https://wedoazure.ie/2019/07/10/az-301-microsoft-azure-architect-design-study-guide/)
 
 [Building and Managing Kubernetes Applications](http://click.et.oreilly.com/?qs=20d09059bceef303af49dae7261dc9594b8a368191563283df85d945f8b23d5fc44e9e42a04a4fd65a6ff83745b76b2831f57fcf18e2c901b52c28ab84417c48)
 
@@ -95,6 +100,10 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 - [security center](https://www.youtube.com/watch?v=t6gp9k78XEw)
 
+- [How to choose which services to use in Azure](https://www.youtube.com/embed/ZpK_lv6HJkQ)
+
+- [App Service diagnostics](https://www.youtube.com/embed/PtWC43_D0KU)
+
 # video blog
 
 - How to query Azure Storage logs in Azure Monitor Log Analytics | Azure Tips and Tricks
@@ -114,3 +123,17 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 [AKS LogAnalytics examples](https://raw.githubusercontent.com/Azure/k8s-best-practices/master/aks-azure-monitor/examples)
 
 [AKS best pratices](https://github.com/Azure/k8s-best-practices)
+
+[FAQ app-service linux](https://github.com/Azure/app-service-linux-docs)
+
+# Ignite URLs
+  - [Building the foundation for Modern Ops: Monitoring](https://aka.ms/OPS10MSLearnCollection)
+  - [Responding to incidents](https://aka.ms/OPS20MSLearnCollection)
+  - [Learning from failure](https://aka.ms/OPS30MSLearnCollection)
+  - [Deployment practices for greater reliability](https://aka.ms/OPS40MSLearnCollection)
+  - [Preparing for growth: Capacity planning and scaling](https://aka.ms/OPS50MSLearnCollection)
+  
+# azureAD
+- [How to choose the right authentication option in Azure Active Directory](https://www.youtube.com/watch?v=YtW2cmVqSEw)
+  
+  

@@ -32,25 +32,31 @@ spec:
  ```bash
       
 ---
+
+#cat <<EOF >pv-log.yaml
+
 apiVersion: v1
 kind: PersistentVolume
 metadata:
    name: pv-log
 spec:
   accessModes:
-      - ReadWriteMany  capacity:
-  storage: 100Mi  
+      - ReadWriteMany  
+  capacity:
+    storage: 100Mi
   hostPath:
      path: /pv/log
      type: Directory
 
-
+#EOF
  ```
  
  ## Configure a persistent volume Claim
  
  ```bash
 ---
+#cat <<EOF >claim-log-1.yaml
+
 apiVersion: v1
 kind: PersistentVolumeClaim
 metadata:
@@ -61,7 +67,8 @@ spec:
   resources:
     requests:
       storage: 50Mi
-      
+
+#EOF
 
  ```
  
