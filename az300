@@ -1,9 +1,0 @@
-
-
-- It is not possible to convert a Standard storage account to Premium storage account or vice versa. You must create a new storage account with the desired type and copy data, if applicable, to a new storage account.
-- To take advantage of the new archive access tier and for the lowest price per gigabyte, it's recommended that you create new storage accounts as general-purpose v2 accounts. You can upgrade your GPv1 account to a GPv2 account using PowerShell or Azure CLI.
-- A Blob storage account only exposes the Blob service endpoint. And, you can also configure a custom domain name to use with your storage account
-
-- If you change from GRS to LRS, there is no additional cost, but your replicated data is deleted from the secondary location.
-    - If you select Premium performance only LRS replication will be available.
-    - If you create availability sets for your virtual machines, then Azure uses Zone-redundant Storage (ZRS).
