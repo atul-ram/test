@@ -58,6 +58,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 1. [AZ-301 -Tim](http://click.et.oreilly.com/?qs=7ca6081fbf40d72a3fbf47225149581e8eca8bb4d9c6c8342eeef409e6e96736d204029949141f273bc278e8cece4ea3f17ff2de395cb918bf0d4c1ad4689d6e)
 1. [AZ-301 -Tim](https://learning.oreilly.com/live-training/courses/exam-az-301-microsoft-azure-architect-design-crash-course/0636920312970/)
 1. [AZ 301 study guide](https://wedoazure.ie/2019/07/10/az-301-microsoft-azure-architect-design-study-guide/)
+1. [CKA](http://click.et.oreilly.com/?qs=c51fb2413d9c2bcdcdddaed6e2b4ff95c328ff7252c61330b48ede9e4f1a2f1bd4bd571aa30d89103e2aae8a854e90d14fcf461f8d2077b8)
 
 [Building and Managing Kubernetes Applications](http://click.et.oreilly.com/?qs=20d09059bceef303af49dae7261dc9594b8a368191563283df85d945f8b23d5fc44e9e42a04a4fd65a6ff83745b76b2831f57fcf18e2c901b52c28ab84417c48)
 
