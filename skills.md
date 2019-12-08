@@ -70,6 +70,8 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 # Important
 
+[# use az interactive]
+
 [www.azuredevopslabs.com](https://www.azuredevopslabs.com/)
 
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
