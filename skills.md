@@ -63,14 +63,16 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Building and Managing Kubernetes Applications](http://click.et.oreilly.com/?qs=20d09059bceef303af49dae7261dc9594b8a368191563283df85d945f8b23d5fc44e9e42a04a4fd65a6ff83745b76b2831f57fcf18e2c901b52c28ab84417c48)
 
+# Microsoft Learn
+
+1. [AZ 300](https://docs.microsoft.com/en-us/learn/certifications/exams/az-300)
+1. [AZ 301](https://docs.microsoft.com/en-us/learn/certifications/exams/az-301)
+
 # Important
 
 [www.azuredevopslabs.com](https://www.azuredevopslabs.com/)
 
 [https://vstsdemogenerator.azurewebsites.net/](https://vstsdemogenerator.azurewebsites.net/)
-
-
-
 
 >AKS RBAC https://dzone.com/articles/aks-scratch-to-production-ready
 
