@@ -37,6 +37,7 @@ Azure Devops| - [Professional Microsoft Azure DevOps Engineering](https://learni
 
 [Understanding Azure Logic Apps by Eduardo FreitasVictoria Clark](https://learning.oreilly.com/videos/understanding-azure-logic/9781788476997?autoplay=false)
 
+[Exam Ref AZ-300](https://learning.oreilly.com/library/view/exam-ref-az-300/9780135881477/)
 
 [Microsoft AZ-300 Certification Course: Azure Architect ](https://learning.oreilly.com/videos/microsoft-az-300-certification/1018947654)
 
